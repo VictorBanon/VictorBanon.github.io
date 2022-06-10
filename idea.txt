@@ -11,4 +11,9 @@ AÑADIR SONIDO:
 -https://stackoverflow.com/questions/12953928/immediate-play-sound-on-button-click-in-html-page
 -
 -
--
+
+INTERESANTO PARA EL FORMULARIO DE CONTACTO
+-https://www.youtube.com/watch?v=wL9YzgA13c4&list=RDCMUCBlr2jG1onljL-gUy9bbhJw&index=7
+
+Animacion de carga:
+-https://www.youtube.com/watch?v=htU3Xs5Nhvw&list=RDCMUCBlr2jG1onljL-gUy9bbhJw&index=9
