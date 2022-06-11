@@ -17,3 +17,31 @@ INTERESANTO PARA EL FORMULARIO DE CONTACTO
 
 Animacion de carga:
 -https://www.youtube.com/watch?v=htU3Xs5Nhvw&list=RDCMUCBlr2jG1onljL-gUy9bbhJw&index=9
+
+
+<!--Side Menu-->
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav -->
+<!--Split Navigation-->
+<!-- https://www.w3schools.com/howto/howto_css_topnav_split.asp -->
+<!-- https://www.youtube.com/watch?v=ES8vJcUqE7s -->
+<!-- mirar esto que esta mas guapo --> 
+
+  <!-- PARA LOS PROYECTOS ESTA GUAY                                                          -->
+  <!-- https://www.youtube.com/watch?v=qOO6lVMhmGc&list=RDCMUCBlr2jG1onljL-gUy9bbhJw&index=4 --> 
+
+
+
+FONT FAMILY GUAPISIMAS:
+-Calibri Light 5/5
+-Bahnschrift 5/5
+-Gabriola 5/5
+-Microsoft Sans Serif 4/5
+-Microsoft Yi Baiti 3/5
+-MS Gothic 4/5
+-MV Boli 5/5
+-Segoe Script 5/5
+-Segoe Print 5/5
+-Symbol(pone todo en griego)
+-Webdings(pone todo en symbolo)
+-Wingdings(pone todo en symbolo)
+-Trebuchet MS 5/5

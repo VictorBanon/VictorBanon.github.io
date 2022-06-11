@@ -1,44 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head >
+<head> 
     <title>Don Victor</title>
-    <meta charset="utf-8"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css\general.css" type="text/css">
     <link rel="stylesheet" href="css\footer.css" type="text/css">
     <link rel="stylesheet" href="css\navegador.css" type="text/css">
+    <link rel="stylesheet" href="css\fichas.css" type="text/css">
     <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>    <!-- Boxiocns CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>    
+    <!-- Boxiocns CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="fotos/meme.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Swiper -->
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet"  href="https://unpkg.com/swiper@8.2.3//swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet"  href="https://unpkg.com/swiper@8.2.3//style.css">
+                                        
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/fichas.js"></script>
+</head>
 
 <body style="background-color: #a43ff8;">
  
-<!--Side Menu-->
-<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav -->
-<!--Split Navigation-->
-<!-- https://www.w3schools.com/howto/howto_css_topnav_split.asp -->
-<!-- https://www.youtube.com/watch?v=ES8vJcUqE7s -->
-<!-- mirar esto que esta mas guapo --> 
-
-
 <!--  -->
 <section style="margin: 10px 10px 10px 100px ;"> 
-  <header style="text-align: center;height: 100px;">
-    
-    <h1>Pagina web</h1> 
 
+  <header style="text-align: center;height: 100px;margin: 0px 40% 0px 0% ;">
+    <h1 style="font-size:60px;font-family: 'Gabriola' ;">Algoritms</h1> 
   </header>
-  <section style="float: left;width: 40%;"> 
-    <img src="fotos/sargentin.png" alt="sargentin">
+
+  <section style="float: left;width: 60%; "> 
+    <h1 style="font-family: 'Gabriola';text-align:center;">Razon de ser de esta Pagina</h1>
+    <hr style="width:80%;align-content:center;margin: auto; border: 1px solid #000000;">
+    <p  style="font-family: 'Gabriola';text-align:center;">He creado esta pagina web con el fin de aprender html/css y sus mecanismos. </p>
+    <p  style="font-family: 'Gabriola';text-align:center;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+    <hr style="width:80%;align-content:center;margin: auto; border: 1px solid #000000;">
+
+    <section style="height: 100px;"></section>
+    <div class="slide-container swiper">
+      <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                  <div class="image-content">
+                      <span class="overlay"></span>
+
+                      <div class="card-image">
+                          <!--<img src="images/profile1.jpg" alt="" class="card-img">-->
+                      </div>
+                  </div>
+
+                  <div class="card-content">
+                      <h2 class="name">Algotitmo Sexy</h2>
+                      <p class="description">Algotitmo Sexy.</p>
+
+                      <button class="button">View More</button>
+                  </div>
+              </div> 
+          </div>
+      </div>
+
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
+  </div>
+
   </section>
-  <section style="float: left;width: 60%;"> 
-    <h1>Encabezado</h1>
-    <p>Un montón de contenido impresionante.</p>
+</div>
+
+  <section style="height: 10px;"></section>
+
+  <section style="float: left;width: 40%;">  
+    <img src="fotos/sargentin.png" alt="sargentin" style="margin-bottom:40%;display: block;margin-left: auto;margin-right: auto;"> 
   </section>
+
 </section>
+ 
 <!--  -->
 
 <div class="sidebar close">
@@ -156,21 +200,6 @@
 </ul>
 </div>
  
-<script>
-let arrow = document.querySelectorAll(".arrow");
-for (var i = 0; i < arrow.length; i++) {
-  arrow[i].addEventListener("click", (e)=>{
- let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
- arrowParent.classList.toggle("showMenu");
-  });
-}
-let sidebar = document.querySelector(".sidebar");
-let sidebarBtn = document.querySelector(".bx-menu");
-console.log(sidebarBtn);
-sidebarBtn.addEventListener("click", ()=>{
-  sidebar.classList.toggle("close");
-});
-</script>
 
 <footer>
   <div class="content">
@@ -190,5 +219,27 @@ sidebarBtn.addEventListener("click", ()=>{
 
 </body>
 
+<!-- Swiper JS --> 
+<script src="https://unpkg.com/swiper@8.2.3//swiper-bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="js/fichas.js"></script>
+
+<!-- Scripts -->
+<script>
+  let arrow = document.querySelectorAll(".arrow");
+  for (var i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener("click", (e)=>{
+   let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+   arrowParent.classList.toggle("showMenu");
+    });
+  }
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".bx-menu");
+  console.log(sidebarBtn);
+  sidebarBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("close");
+  });
+</script>
 
 </html>
