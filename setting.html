@@ -15,38 +15,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body style="background-color:#898989">
 
-<!--  -->
-<section style="margin: 10px 10px 10px 100px ;"> 
-  <header style="text-align: center;height: 100px;margin: 0px 0px 0px 40% ;">
-    <h1 style="font-size:100px;font-family: 'Gabriola' ;">Pagina web</h1> 
-  </header>
-  <section style="float: left;width: 40%;">  
-    <img src="fotos/sargentin.png" alt="sargentin" style="margin-bottom:40%;display: block;margin-left: auto;margin-right: auto;"> 
-  </section>
-
-  <section style="float: left;width: 60%;"> 
-    <section style="float: top;height: 100%;margin-top:15%">
-      <h1 style="font-family: 'Gabriola';text-align:center;font-size:30px;">Razon de ser de esta Pagina</h1>
-      <!-- En Español -->
-      <hr style="width:60%;align-content:center;margin: auto; background-color: #000000; border: 1px solid #000000;">
-      <section style="height: 5px;"></section>
-      <hr style="width:80%;align-content:center;margin: auto; background-color: #000000; border: 1px solid #000000;">
-      <p  style="font-family: 'Gabriola';text-align:center;font-size:20px;font-weight:600;color:#170099;margin: 0px 20% 0px 20% ;">
-        He creado esta pagina web con el fin de aprender html/css y sus mecanismos, y aprovechando que ya tenia 
-        la pagina he decidido añadirlo un poco de contenido. En esta pagina he puesto los diferentes proyectos 
-        y algoritmos que he realizado durante mi carrera, al igual que comento cosas que mi interesan intereses. 
-        Todas estas cosas estan organizadas en la barra de navegacion que hay a la izquierda. Tambien he puesto 
-        mis redes sociales abajo.
-      </p>
-      <hr style="width:80%;align-content:center;margin: auto; background-color: #000000; border: 1px solid #000000;">
-      <section style="height: 5px;"></section>
-      <hr style="width:60%;align-content:center;margin: auto; background-color: #000000; border: 1px solid #000000;">
-    </section> 
-  </section>
-</section>
-<!--  -->
 
 <div class="sidebar close">
   <div class="logo-details"> 
@@ -88,13 +58,13 @@
           <i class='bx bx-receipt' ></i>
           <span class="link_name">Work</span>
         </a>
-          <i class='bx bxs-chevron-down arrow' ></i>
+        <i class='bx bxs-chevron-down arrow' ></i>
       </div>
-        <ul class="sub-menu">
-          <li><a class="link_name" href="projets.html">Work</a></li>
-          <li><a href="projets.html">Projets  </a></li> 
-          <li><a href="projets.html">Algoritms</a></li> 
-        </ul>
+      <ul class="sub-menu">
+        <li><a class="link_name" href="algoritms.html">Work</a></li>
+        <li><a href="#">Projets</a></li> 
+        <li><a href="#">Algoritms</a></li> 
+      </ul>
     </li>   
 
     <!-- OPTIONS SETTINGS-->
@@ -140,6 +110,22 @@
 </ul>
 </div>
  
+<!-- Ponerlo en switches quizas sea mas facil -->
+
+<section>
+  <!-- Español -->
+  <section style = "float:left;width: 20%;">
+    <img src="fotos/sargentin.png" alt="sargentin" style="display: block;margin-left: auto;margin-right: auto;"> 
+  </section>
+  <!-- Frances -->
+  <section style = "float:left;width: 20%;">
+    <img src="fotos/sargentin.png" alt="sargentin" style="display: block;margin-left: auto;margin-right: auto;"> 
+  </section>
+  <!-- Ingles -->
+  <section style = "float:left;width: 20%;">
+    <img src="fotos/sargentin.png" alt="sargentin" style="display: block;margin-left: auto;margin-right: auto;"> 
+  </section>
+</section>
 
 <footer>
   <div class="content">
@@ -158,6 +144,7 @@
 </footer>
 
 </body>
+
 <script>
 let arrow = document.querySelectorAll(".arrow");
 for (var i = 0; i < arrow.length; i++) {
