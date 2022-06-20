@@ -9,31 +9,35 @@ body {
 .header_left{
   text-align: center;
   height: 100px;
-  margin: 0px 0px 0px 40% ;
+  margin: 0px 0px 0px 40% ;  
 }
 
 .header_right{
   text-align: center;
   height: 100px;
-  margin: 0px 40% 0px 0px ;
+  margin: 0px 40% 0px 0px ; 
 }
 
 .box_left {
   float: left;
   width: 40%;
+  height: 100%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box_right {
   float: right;
   width: 60%;
+  height: 100%;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+ 
 
-.box_right {
-  float: right;
-  width: 60%;
-}
-
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .box_left{
     float: none;
     width: 100%;
