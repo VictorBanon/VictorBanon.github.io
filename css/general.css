@@ -33,7 +33,7 @@ body {
   width: 60%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 400px) {
   .box_left{
     float: none;
     width: 100%;
