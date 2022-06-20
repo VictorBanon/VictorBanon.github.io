@@ -6,6 +6,50 @@ body {
   width: 100%;
 }
 
+.header_left{
+  text-align: center;
+  height: 100px;
+  margin: 0px 0px 0px 40% ;
+}
+
+.header_right{
+  text-align: center;
+  height: 100px;
+  margin: 0px 40% 0px 0px ;
+}
+
+.box_left {
+  float: left;
+  width: 40%;
+}
+
+.box_right {
+  float: right;
+  width: 60%;
+}
+
+.box_right {
+  float: right;
+  width: 60%;
+}
+
+@media (max-width: 1000px) {
+  .box_left{
+    float: none;
+    width: 100%;
+  } 
+  .box_right{
+    float: none;
+    width: 100%;
+  } 
+  .header_left{ 
+    margin: 0px 0px 0px 0px ;
+  }
+  .header_right{  
+    margin: 0px 0px 0px 0px ;
+  }
+} 
+
 /* Google Fonts Import Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
