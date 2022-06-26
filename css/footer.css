@@ -8,11 +8,11 @@ footer{
     width: 100%;
     height: 6%;
     bottom: 0;
-    right: 0;
+    right: 0;  
 }
 footer .content{
     max-width: 100%;
-    margin: 1% 1% 1% 1%; 
+    margin: 0.5% 1% 1.5% 1%; 
 }
 footer .content .top{
     display: flex;
@@ -27,12 +27,12 @@ footer .content .top{
     display: flex;
 }
 .content .top .media-icons a{
-    height: 3.2vw;
-    width:  3.2vw;
+    height: 2.6vw;
+    width:  2.6vw;
     margin: 0 8px;
     border-radius: 50%;
     text-align: center;
-    line-height: 3.2vw;
+    line-height: 2.6vw;
     color: #fff;
     font-size: 1.5vw;
     text-decoration: none;

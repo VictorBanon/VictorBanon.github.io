@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head >
+<head >
     <title>Don Victor</title>
     <meta charset="utf-8"> 
-    <link rel="stylesheet" href="../../css/general.css" type="text/css">
+    <link rel="stylesheet" href="../../css/general.css" type="text/css"> 
+    <link rel="stylesheet" href="../../css/fichas.css" type="text/css">
     <link rel="stylesheet" href="../../css/footer.css" type="text/css">
     <link rel="stylesheet" href="../../css/navegador.css" type="text/css">
-    <link rel="stylesheet" href="../../css/fichas.css" type="text/css">
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>    
     <!-- Boxiocns CDN Link -->
@@ -30,46 +30,41 @@
 <body style="background-color: #ffe600;">
  
 <!--  -->
-<section style="margin: 10px 10px 10px 100px ;"> 
-  <header style="text-align: center;height: 100px;margin: 0px 0px 0px 40% ;">
-    <h1 style="font-size:60px;font-family: 'Gabriola' ;">Projets</h1> 
+<div style="margin: 1% 1%  1%  10% ;height: 94%;"> 
+  <header class="header_left">
+    <h1 style="font-size:4.0vw;font-family: 'Gabriola' ;">Trabajo</h1> 
   </header>
-  <section style="float: left;width: 40%;">  
-    <img src="../../fotos/sargentin.png" alt="sargentin" style="margin-bottom:40%;display: block;margin-left: auto;margin-right: auto;"> 
-  </section>
-  <section style="float: left;width: 60%; "> 
-    <h1 style="font-family: 'Gabriola';text-align:center;">-O-</h1>
+  <div class="box_left_image">  
+    <img src="../../fotos/sargentin.png" alt="sargentin" style="margin-left: auto;margin-right: auto;"> 
+  </div>
+  <div class="box_right_text"  > 
+    <h1 style="font-family: 'Gabriola';text-align:center;">Notas</h1>
     <hr style="width:60%;align-content:center;margin: auto; border: 1px solid #000000;">
-    <section style="height: 5px;"></section>
+    <div style="height: 5px;"></div>
     <hr style="width:80%;align-content:center;margin: auto; background-color: #000000; border: 1px solid #000000;">
     <p  style="font-family: 'Gabriola';text-align:center;font-size:20px;font-weight:600;color:#025b0c;margin: 0px 20% 0px 20% ;">
-      Aqui he puesto los differentes proyectos que he hecho durante mi carrera. 
-      [Descripcion variada de los proyectos]
+      Aqui he puesto differentes notas sobre los temas que he dado a lo largo de mi carrera
+      o a los que me he interesado. Estan organizados por temas y devuelven pequeños 
+      resumenes que he hecho para mi. En la pestaña Algoritmo he puesto los differentes 
+      algoritmos, y en Projectos los proyectos que he hecho.
     </p>
     <hr style="width:80%;align-content:center;margin: auto; border: 1px solid #000000;">
-    <section style="height: 5px;"></section>
+    <div style="height: 5px;"></div>
     <hr style="width:60%;align-content:center;margin: auto; background-color: #000000; border: 1px solid #000000;">
-  <section style="height: 100px;"></section>
+  <div style="height: 100px;"></div>
     <div class="slide-container swiper">
       <div class="slide-content">
           <div class="card-wrapper swiper-wrapper">
-              <div class="card swiper-slide">
-                  <div class="image-content">
-                      <span class="overlay"></span>
-
-                      <div class="card-image">
-                          <!--<img src="images/profile1.jpg" alt="" class="card-img">-->
-                      </div>
-                  </div>
-
-                  <div class="card-content">
-                      <h2 class="name">Algotitmo Sexy</h2>
-                      <p class="description">Algotitmo Sexy.</p>
-
-                      <button class="button">View More</button>
-                  </div>
-              </div> 
-          </div>
+            <!-- Calculo_parralelo -->
+            <div class="card swiper-slide"> 
+                <div class="card-content">
+                    <h2 class="name">Calculo_parralelo</h2>
+                    <p class="description">
+                      Multitreading/Multiprocesing
+                    </p>
+                    <button class="button" onclick= "location.href='../../notas/calculo_parralelo.html';">View More</button>
+                </div>
+            </div> 
       </div>
 
       <div class="swiper-button-next swiper-navBtn"></div>
@@ -77,10 +72,10 @@
       <div class="swiper-pagination"></div>
   </div>
         
-  </section>
+  </div>
   
-</section>
- 
+</div>
+  
 <div class="sidebar close">
   <div class="logo-details"> 
     <i class='bx bx-menu'></i>
@@ -172,6 +167,7 @@
 </li>
 </ul>
 </div>
+
 
 <footer>
   <div class="content">
